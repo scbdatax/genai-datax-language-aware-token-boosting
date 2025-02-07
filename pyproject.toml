@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "language-aware-tokens-decoder"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+packages = [{include = "latb"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.46.0"
+fasttext = "^0.9.3"
+pythainlp = "^5.0.4"
+pandas = "^2.2.3"
+torch = "^2.4.0"
+evaluate = "^0.4.3"
+pyarrow = "17.0.0"
+ipykernel = "^6.29.5"
+matplotlib = "^3.9.2"
+vllm = "0.7.0"
+bitsandbytes = "^0.44.1"
+accelerate = "^1.0.1"
+absl-py = "^2.1.0"
+nltk = "^3.9.1"
+rouge-score = "^0.1.2"
+openai = "^1.53.0"
+python-dotenv = "^1.0.1"
+pytest = "^8.3.3"
+scipy = "1.13.1"
+seaborn = "^0.13.2"
+jinja2 = "3.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
